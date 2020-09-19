@@ -19,3 +19,30 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 
+
+
+body {
+	display:flex;
+	justify-content:flex-end;
+	height:300px;
+	margin-right:2%;
+	margin-top:2%;
+	text-align:right;
+	font-family: Helvetica, Sans-Serif;
+	font-size:90%;
+}
+
+nav {
+	display:flex;
+	flex-direction:column;
+}
+
+h1, nav a {
+	margin-bottom:3%;
+}
+
+nav a {
+	color:blue;
+}
+
+
