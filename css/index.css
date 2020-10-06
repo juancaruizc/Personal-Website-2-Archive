@@ -19,17 +19,20 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 
-
-
 body {
+	font-size:90%;
+	font-family: Helvetica, Sans-Serif;
+
+}
+
+header {
 	display:flex;
 	justify-content:flex-end;
 	height:300px;
 	margin-right:2%;
 	margin-top:2%;
 	text-align:right;
-	font-family: Helvetica, Sans-Serif;
-	font-size:90%;
+	
 }
 
 nav {
@@ -43,6 +46,10 @@ h1, nav a {
 
 nav a {
 	color:blue;
+}
+
+img.me {
+	width:15%;
 }
 
 
