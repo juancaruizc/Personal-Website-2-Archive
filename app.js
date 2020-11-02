@@ -5,3 +5,7 @@ const a = document.querySelector('a');
 a.addEventListener('click', (e) => {
   e.style.backgroundColor = 'red';
 });
+
+nav.addEventListener('click', (e) => {
+  e.style.backgroundColor = 'red';
+});
